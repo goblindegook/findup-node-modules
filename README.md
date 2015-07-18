@@ -1,6 +1,6 @@
 # findup-node-modules [![Build Status](https://travis-ci.org/goblindegook/findup-node-modules.svg?branch=master)](https://travis-ci.org/goblindegook/findup-node-modules)
 
-> Finds a valid file or folder path by looking inside one or more `node_modules` directories, starting with the one nearest.  Mostly useful when including asset files (such as style sheets and images) bundled with a Node module.
+Finds a valid file or folder path by looking inside one or more `node_modules` directories, starting with the nearest one.  Mostly useful when including asset files (such as style sheets and images) bundled with a Node module.
 
 
 ## Install
