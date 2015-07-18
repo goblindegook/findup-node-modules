@@ -18,11 +18,7 @@ function findPath(path, directories) {
     return null;
   }
 
-  var modulePath = findup(path, {cwd: cwd});
-
-  console.log(modulePath);
-
-  return modulePath || findPath(path, slice.call(directories, 1));
+  return findup(path, {cwd: cwd}) || findPath(path, slice.call(directories, 1));
 }
 
 /**
