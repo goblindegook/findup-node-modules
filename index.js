@@ -9,7 +9,6 @@ var slice           = [].slice;
  *
  * @param  {String} path        Path to locate.
  * @param  {Array}  directories Array of directories.
- *
  * @return {String}             Located path, or null if not found.
  */
 function findPath(path, directories) {
@@ -29,9 +28,8 @@ function findPath(path, directories) {
 /**
  * Find the nearest path contained inside a node_modules directory.
  *
- * @param  {String}  path     Base path.
- * @param  {Object}  options  Directory to scan.
- *
+ * @param  {String}  path     Path to locate.
+ * @param  {Object}  options  Directory to scan (optional, defaults to current directory).
  * @return {String}           Location of the nearest path in node_modules.
  */
 module.exports = function(path, cwd) {
