@@ -1,0 +1,39 @@
+{
+  "name": "findup-node-modules",
+  "version": "0.1.0",
+  "description": "",
+  "license": "MIT",
+  "repository": "goblindegook/findup-node-modules",
+  "author": {
+    "name": "Luís Rodrigues",
+    "email": "hello@goblindegook.net",
+    "url": "http://goblindegook.net"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "keywords": [
+    "find",
+    "files",
+    "folders",
+    "locate",
+    "paths",
+    "node_modules"
+  ],
+  "dependencies": {
+    "find-node-modules": "^1.0.1",
+    "findup-sync": "^0.2.1"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "mock-fs": "^3.0.0",
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "tape test.js | faucet"
+  }
+}
